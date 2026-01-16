@@ -20,13 +20,17 @@ using packet captures and theoretical analysis.
 
 ---
 
+This repository demonstrates entry-level SOC and NOC analytical skills,
+including packet inspection, protocol analysis, and security awareness.
+
+
 ## Quick Diagram: DNS → TCP Flow
 
 ```mermaid
 sequenceDiagram
-participant C as Client
-participant D as DNS Server
-participant S as Server
+Participant C as Client
+Participant D as DNS Server
+Participant S as Server
 
 C->>D: DNS Query (UDP/53)
 D-->>C: DNS Response (IP)
